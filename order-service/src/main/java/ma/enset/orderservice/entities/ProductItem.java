@@ -5,10 +5,10 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import ma.enset.orderservice.model.Product;
 import org.hibernate.validator.constraints.Normalized;
-import org.sid.orderservice.model.Product;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor @Builder

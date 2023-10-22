@@ -4,10 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.sid.orderservice.enums.OrderStatus;
-import org.sid.orderservice.model.Customer;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
+import ma.enset.orderservice.enums.OrderStatus;
+import ma.enset.orderservice.model.Customer;
+
 import java.util.Date;
 import java.util.List;
 @Entity
