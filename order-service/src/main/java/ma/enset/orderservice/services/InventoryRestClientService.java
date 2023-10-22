@@ -1,7 +1,6 @@
 package ma.enset.orderservice.services;
 
-import org.sid.orderservice.model.Customer;
-import org.sid.orderservice.model.Product;
+import ma.enset.orderservice.model.Product;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.hateoas.PagedModel;
 import org.springframework.web.bind.annotation.GetMapping;

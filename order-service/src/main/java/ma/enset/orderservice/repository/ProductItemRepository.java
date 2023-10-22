@@ -1,6 +1,7 @@
 package ma.enset.orderservice.repository;
 
-import org.sid.orderservice.entities.ProductItem;
+
+import ma.enset.orderservice.entities.ProductItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
