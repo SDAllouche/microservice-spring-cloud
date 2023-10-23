@@ -25,7 +25,6 @@ public class CustomerServiceApplication {
                     Customer.builder().name("FADWA").email("fadwa@gmail.com").build(),
                     Customer.builder().name("SANAA").email("sanaa@gmail.com").build()
             ));
-            customerRepository.findAll().forEach(System.out::println);
         };
     }
 
